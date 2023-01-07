@@ -9,7 +9,12 @@ background: #eee;
 .h-custom {
 height: calc(100% - 73px);
 }
-
+.btn-primary {
+    --bs-btn-bg: rgb(17, 133, 42); // Buton ana renk
+    --bs-btn-border-color: rgba(17, 18, 17, 0.867); //Buton köşe rengi 
+    --bs-btn-hover-bg: #ad1d; // Buton üstüne gelinince değişen renk
+    --bs-btn-hover-border-color: #0a58ca; //Buton üstüne gelindiğinde köşe rengi
+}
 @media (max-width: 450px) {
 .h-custom {
 height: 100%;
