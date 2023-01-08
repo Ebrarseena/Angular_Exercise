@@ -1,0 +1,161 @@
+.ana{
+  width: 840px;
+  height: 980px;
+  background-color: white;
+  display: flex;
+}
+
+.colors{
+  position: absolute;
+  width: 840px;
+  height: 240px;
+  background-color: white;
+  text-transform: uppercase;
+}
+
+colors_a{
+  size: 64px;
+  font-weight: 700;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 22px; //Yazi tipinin kalınlığını belirtir
+  display: flex; // Esneklik tanımlanabilir
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #F27A54 0%, #A154F2 186.42%);
+
+}
+
+.grey{
+  position: absolute;
+  width: 600px;
+  height: 120px;
+  top:240px;
+  left: 120px;
+  background: #F2F4F7;
+}
+.grey_a{
+  color: #474F5A;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-left:5x;
+  letter-spacing: 0em;
+  margin-top: 43px;
+  text-align: center;
+}
+
+.a{
+  position: absolute;
+  width: 160px;
+  height: 40px;
+  left: 440px;
+  top: 0px;
+  background: #3C444C;
+ //flex-direction: column;
+}
+
+.b{
+  position:absolute;
+  width: 160px;
+  height: 40px;
+  left: 440px;
+  top:40px;
+  background: #747D88;}
+
+.c{
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    left: 440px;
+    top: 80px;
+    background: #CBCFD4;
+}
+
+.dark{
+  position: absolute;
+  top: 390px;
+  left: 120px;
+  height: 120px;
+  width: 600px;
+  background-color: #30363D;
+  font-weight: 700;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.dark_a{
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-left: 269px;
+  letter-spacing: 0em; //Harfler arası mesafeyi ayarlamak için kullanılır
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.primary{
+  position: absolute;
+  width: 600px;
+  height: 120px;
+  left: 120px;
+  top: 540px;
+  background: #F27A54;
+}
+
+.primary_a{
+  font-family: Roboto;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 43px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #FFFFFF;
+}
+
+.secondary{
+  position: absolute;
+  width: 600px;
+  height: 120px;
+  left: 120px;
+  top: 686px;
+  background: #A154F2;
+}
+
+.secondary_a{
+  font-family: Roboto;
+  font-size: 24px;
+  margin-top: 43px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.tertiary{
+  position: absolute;
+  width: 600px;
+  height: 120px;
+  left: 120px;
+  top: 826px;
+  background: #6FCF97;
+}
+
+.tertiary_a{
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 43px;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFFFFF;
+}

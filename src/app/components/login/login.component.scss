@@ -9,11 +9,35 @@ background: #eee;
 .h-custom {
 height: calc(100% - 73px);
 }
+
+.link-danger { //kayıt ol renk değişimi
+  color: black !important;
+}
+
 .btn-primary {
-    --bs-btn-bg: rgb(17, 133, 42); // Buton ana renk
-    --bs-btn-border-color: rgba(17, 18, 17, 0.867); //Buton köşe rengi 
-    --bs-btn-hover-bg: #ad1d; // Buton üstüne gelinince değişen renk
-    --bs-btn-hover-border-color: #0a58ca; //Buton üstüne gelindiğinde köşe rengi
+  font-weight: bold;
+  font-family: cursive;
+}
+
+input, button, select, optgroup, textarea {
+  margin-left: 10px;
+}
+
+.text-body {
+  margin-right: 180px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  margin-left: 90px;
+}
+
+.btn-primary {
+    --bs-btn-bg: rgb(228, 129, 42); // Buton ana renk
+    --bs-btn-border-color: rgb(104, 95, 87); //Buton köşe rengi
+    --bs-btn-hover-bg: rgb(228, 129, 42); // Buton üstüne gelinince değişen renk
+    --bs-btn-hover-border-color: rgb(114, 103, 93); //Buton üstüne gelindiğinde köşe rengi
 }
 @media (max-width: 450px) {
 .h-custom {
