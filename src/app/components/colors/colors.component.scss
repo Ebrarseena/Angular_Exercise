@@ -6,26 +6,19 @@
 }
 
 .colors{
-  position: absolute;
+  position:absolute;
+  color:#F27A54;
   width: 840px;
-  height: 240px;
-  background-color: white;
+  height: 300px;
+  margin-left:320px;
+  margin-top: 70px;
   text-transform: uppercase;
-}
-
-colors_a{
-  size: 64px;
-  font-weight: 700;
+  background-color: white;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 700;
-  font-size: 64px;
+  font-size: 54px;
   line-height: 22px; //Yazi tipinin kalınlığını belirtir
   display: flex; // Esneklik tanımlanabilir
-  align-items: center;
-  text-align: center;
-  text-transform: uppercase;
-  background: linear-gradient(90deg, #F27A54 0%, #A154F2 186.42%);
-
 }
 
 .grey{
@@ -58,13 +51,48 @@ colors_a{
  //flex-direction: column;
 }
 
+.a1{
+  height: 40px;
+  width: 160px;
+  left: 560px;
+  top: 240px;
+  border-radius: undefinedpx;
+  color: #FFFFFF;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 70px;
+}
+
 .b{
   position:absolute;
   width: 160px;
   height: 40px;
   left: 440px;
   top:40px;
-  background: #747D88;}
+  background: #747D88;
+}
+
+.b1{
+  height: 40px;
+  width: 160px;
+  left: 560px;
+  top: 240px;
+  border-radius: undefinedpx;
+  color: #FFFFFF;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 70px;
+}
 
 .c{
     position: absolute;
@@ -73,6 +101,23 @@ colors_a{
     left: 440px;
     top: 80px;
     background: #CBCFD4;
+}
+
+.c1{
+  height: 40px;
+  width: 160px;
+  left: 560px;
+  top: 240px;
+  border-radius: undefinedpx;
+  color: #FFFFFF;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 70px;
 }
 
 .dark{
@@ -159,3 +204,5 @@ colors_a{
   text-align: center;
   color: #FFFFFF;
 }
+
+

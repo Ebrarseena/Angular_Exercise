@@ -11,17 +11,19 @@ position: absolute;
 }
 
 .typography{
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 22px;
-  display: flex;
-  margin-left: 230px;
-  margin-top: 40px;
-  text-align: center;
+  position:absolute;
+  color:#F27A54;
+  width: 620px;
+  height: 300px;
+  margin-left:220px;
+  margin-top: 70px;
+  background: #3C444C;
   text-transform: uppercase;
-  background: linear-gradient(90deg, #F27A54 0%, #A154F2 186.42%);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 284px;
+  line-height: 22px; //Yazi tipinin kalınlığını belirtir
+  display: flex; // Esneklik tanımlanabilir
 }
 
 .etiket1{
