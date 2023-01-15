@@ -16,6 +16,7 @@ import { ColorsComponent } from './components/colors/colors.component';
 import { IconhographyComponent } from './components/iconhography/iconhography.component';
 import { TypographyComponent } from './components/typography/typography.component';
 import { TypographyDarkComponent } from './components/typography-dark/typography-dark.component';
+import { FormsComponent } from './components/forms/forms.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { TypographyDarkComponent } from './components/typography-dark/typography
     ColorsComponent,
     IconhographyComponent,
     TypographyComponent,
-    TypographyDarkComponent
+    TypographyDarkComponent,
+    FormsComponent,
   ],
   imports: [
     BrowserModule,

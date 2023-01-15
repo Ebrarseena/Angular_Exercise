@@ -7,25 +7,18 @@ import { ProductService } from 'src/app/service/product.service';
   templateUrl: './product-detail.component.html',
   styleUrls: ['./product-detail.component.scss']
 })
-export class ProductDetailComponent implements OnInit {
-productName: any;
- 
+export class ProductDetailComponent implements OnInit { 
 
   constructor(
-    private productService: ProductService
+    public productService: ProductService
   ) { }
 
   ngOnInit(): void {
-    this.productName = this.productService.productName;
-    this.getProducts();
+
   }
 
-  getProducts() {
-    this.productService.getProducts().subscribe(res =>{console.log(res)
-    this.productName
-    })
   }
-}
+
 
 
 

@@ -3,7 +3,6 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
-
 import { BasketComponent } from './components/basket/basket.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { ProductListComponent } from './components/product-list/product-list.component';
@@ -11,6 +10,8 @@ import { IconhographyComponent } from './components/iconhography/iconhography.co
 import { ColorsComponent } from './components/colors/colors.component';
 import { TypographyComponent } from './components/typography/typography.component';
 import { TypographyDarkComponent } from './components/typography-dark/typography-dark.component';
+import { ProductDetailComponent } from './components/product-detail/product-detail.component';
+import { FormsComponent } from './components/forms/forms.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'Login', pathMatch: 'full' },
@@ -19,12 +20,14 @@ const routes: Routes = [
   { path: 'Login', component: LoginComponent },
   { path: 'Profile', component: ProfileComponent },
   { path: 'ProductList', component: ProductListComponent },
-  { path: 'ProductDetail', component: ProductListComponent },
+  { path: 'ProductDetail', component: ProductDetailComponent },
   { path: 'Basket', component: BasketComponent },
   { path: 'Iconhography', component: IconhographyComponent },
   { path: 'Colors', component: ColorsComponent },
   { path: 'Typography', component: TypographyComponent },
   { path: 'Typography Dark', component: TypographyDarkComponent },
+  { path: 'Form Elements', component: FormsComponent },
+
 ];
 
 @NgModule({

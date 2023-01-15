@@ -6,13 +6,12 @@ import { Injectable } from '@angular/core';
 })
 export class ProductService {
 
-  productName : string = 'Phone';
-  apiUrl = 'https://fakestoreapi.com/products';
+  apilink = 'https://fakestoreapi.com/products';
   constructor(
     private http:HttpClient
   ) { }
 
   getProducts(){
-  return this.http.get(this.apiUrl + 'products');
+  return this.http.get(this.apilink +'products');
   }
 }

@@ -1,1 +1,11 @@
-{{productService.productName}}
+<div class="row">
+    <div *ngFor="let item of productName " class="card"  style="width: 18rem;">
+        <img [src]="item.image" alt="...">
+        <div class="card-body">
+          <h5  class="card-title">{{item.title}}</h5>
+          <p class="card-text">{{item.description}}</p>
+          <p>{{item.price}} TL</p>
+          <a href="#" class="btn btn-primary">Satın Al</a>
+        </div>
+      </div>
+    </div>
